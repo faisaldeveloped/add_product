@@ -6,6 +6,17 @@
   font-family: "Tajawal", sans-serif;
 }
 
+html::-webkit-scrollbar
+{
+    width: .5rem;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background: rgba(236, 29, 29, 1);
+    border-radius: 50px;
+}
+
 body {
   background: rgba(35, 35, 35, 0.95);
 }
